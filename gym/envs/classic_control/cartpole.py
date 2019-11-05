@@ -44,7 +44,8 @@ class CartPoleEnv(gym.Env):
         Pole Angle is more than 12 degrees
         Cart Position is more than 2.4 (center of the cart reaches the edge of the display)
         Episode length is greater than 200
-        Solved Requirements
+    
+    Solved Requirements:
         Considered solved when the average reward is greater than or equal to 195.0 over 100 consecutive trials.
     """
     
